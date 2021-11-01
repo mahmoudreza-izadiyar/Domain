@@ -1,0 +1,5 @@
+SELECT * FROM Artists WHERE date_of_left < 2010 INNER JOIN  Bands ON Artist.band_id = Bands.id
+
+SELECT * FROM Artists WHERE date_of_joined > 2011 INNER JOIN  Bands ON Artist.band_id = Bands.id
+
+SELECT * FROM Artists WHERE date_of_left < 2011 INNER JOIN  Bands ON Artist.band_id = Bands.id
